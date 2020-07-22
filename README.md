@@ -66,8 +66,8 @@ to complete the algorithm grows proportionately.
 But the _space_ complexity is `O(1)`. The additional space required to complete
 the algorithm was:
 
-* `result`: `O(1)`
-* `v`: `O(1)`
+- `result`: `O(1)`
+- `v`: `O(1)`
 
 And neither of those change in size regardless of how big list `data` is. `data`
 could have a zillion elements, and the algorithm would still only require space
@@ -89,9 +89,9 @@ def alg(data):
 
 Here we have more space allocated.
 
-* `result`: `O(1)`
-* `v`: `O(1)`
-* `new_data`: `O(n)`
+- `result`: `O(1)`
+- `v`: `O(1)`
+- `new_data`: `O(n)`
 
 `new_data` gets bigger as `data` gets bigger, so it's `O(n)`. So we have:
 
@@ -160,7 +160,7 @@ So the total space complexity for this algorithm is:
 Again, compare to the `O(1)` space complexity of the initial iterative solution.
 
 In some languages, notably
-[Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and other
+[Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>) and other
 [functional programming
 languages](https://en.wikipedia.org/wiki/Functional_programming), you can write
 recursive solutions with `O(1)` space complexity. These languages take advantage
@@ -285,3 +285,5 @@ def fib(n):
 (Note that the above naive solution runs in `O(2^n)` time. You can get it down
 to `O(n)` using [_dynamic
 programming_](https://en.wikipedia.org/wiki/Dynamic_programming#Computer_programming).)
+
+<!-- init commit -->
